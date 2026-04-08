@@ -1,0 +1,52 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+/* CSS Variables */
+:root {
+  --primary-font: "Lota Grotesque", sans-serif;
+  --secondary-font: "Lota Grotesque", sans-serif;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Default body */
+body {
+  font-family: var(--primary-font);
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Optional: apply secondary font to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--secondary-font);
+}
+
+/* Images responsive */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Buttons reset */
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Lists */
+ul, ol {
+  list-style: none;
+}
