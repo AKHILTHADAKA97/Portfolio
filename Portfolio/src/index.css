@@ -1,10 +1,10 @@
-/* Import font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lota+Grotesque:wght@400;500;600;700&display=swap');
 
 /* CSS Variables */
 :root {
-  --primary-font: "Lota Grotesque", sans-serif;
-  --secondary-font: "Lota Grotesque", sans-serif;
+  --primary-font: 'Inter', sans-serif;
+  --secondary-font: 'Lota Grotesque', sans-serif;
 }
 
 /* Reset */
@@ -19,6 +19,11 @@ body {
   font-family: var(--primary-font);
   background-color: #ffffff;
   color: #000000;
+}
+
+/* Apply font family globally */
+html, body, input, button, textarea, select {
+  font-family: var(--primary-font);
 }
 
 /* Remove default link styles */
